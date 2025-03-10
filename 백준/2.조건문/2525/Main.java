@@ -10,7 +10,7 @@ public class Main {
         int A = Integer.parseInt(str[0]);
         int B = Integer.parseInt(str[1]);
 
-        if(B+C>60){
+        if(B+C>=60){
             A+=(B+C)/60;
             B = (B+C)%60;
             if(A>23)
