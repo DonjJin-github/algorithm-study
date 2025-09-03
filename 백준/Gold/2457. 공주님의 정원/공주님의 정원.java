@@ -6,7 +6,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int[] arr = {0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334, 365};
+        int[] arr = {0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 335, 365};
         int N = Integer.parseInt(br.readLine());
         int[][] flower = new int[N][2];
 
@@ -20,9 +20,8 @@ public class Main {
             int start = arr[sm - 1] + sd;
             int end = arr[em - 1] + ed;
             
-            
             if (start < 60)
-                start = 60;            
+                start = 60;
 
             flower[i][0] = start;
             flower[i][1] = end;
@@ -33,31 +32,31 @@ public class Main {
             return Integer.compare(a[0], b[0]);
         });
 
-        int ans = 0;
+        int current = 60;
         int index = 0;
-        int currentEnd = 60;
-        int targetDate = 335;
+        int ans = 0;
+        int target = 334; 
 
-        while (currentEnd < targetDate) {
-            int maxEndThisTurn = 0;
+        while (current <= target) {
+            int maxEnd = -1;
 
-            while (index < N && flower[index][0] <= currentEnd) {
-                maxEndThisTurn = Math.max(maxEndThisTurn, flower[index][1]);
+            while (index < N && flower[index][0] <= current) {
+                maxEnd = Math.max(maxEnd, flower[index][1]);
                 index++;
             }
 
-            if (maxEndThisTurn <= currentEnd) {
+            if (maxEnd == -1) { 
                 ans = 0;
                 break;
             }
 
             ans++;
-            currentEnd = maxEndThisTurn;
+            current = maxEnd; 
+
+            if (current > target) break;
         }
 
         bw.write(ans + "\n");
         bw.flush();
-        br.close();
-        bw.close();
     }
 }
