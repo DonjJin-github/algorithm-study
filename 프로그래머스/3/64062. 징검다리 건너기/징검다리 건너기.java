@@ -14,7 +14,7 @@ class Solution {
             int check = 0;
             
             for(int i=0;i<stones.length;i++){
-                if(stones[i]<mid)
+                if(stones[i]-mid<0)
                     count++;
                 else{
                     count = 0;
