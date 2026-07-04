@@ -108,8 +108,7 @@ def activity_card(months):
         by = y0 + ploth - bh
         bars += f'<rect x="{bx:.1f}" y="{by:.1f}" width="{bw:.1f}" height="{max(2,bh):.1f}" rx="3" fill="{CYAN}"/>'
         bars += f'<text x="{bx+bw/2:.1f}" y="{by-4:.1f}" text-anchor="middle" font-size="9.5" font-weight="700" fill="{TEXT}">{v}</text>'
-        if i % 2 == 0 or i == n - 1:
-            bars += f'<text x="{bx+bw/2:.1f}" y="{y0+ploth+14:.1f}" text-anchor="middle" font-size="8" fill="{MUTED}">{lab[2:]}</text>'
+        bars += f'<text x="{bx+bw/2:.1f}" y="{y0+ploth+14:.1f}" text-anchor="middle" font-size="8.5" fill="{MUTED}">{lab[2:]}</text>'
     return _frame(460, 160, bars, title="MONTHLY ACTIVITY")
 
 
