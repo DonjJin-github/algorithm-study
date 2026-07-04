@@ -101,16 +101,13 @@ def activity_card(months):
     n = len(months) or 1
     gap = plotw / n
     bw = min(26, gap * 0.62)
-    peak = max(range(n), key=lambda i: vals[i]) if vals else -1
     bars = ""
     for i, (lab, v) in enumerate(months):
         bh = ploth * (v / mx)
         bx = x0 + i * gap + (gap - bw) / 2
         by = y0 + ploth - bh
-        col = CYAN if i == peak else "#2b6f6a"
-        bars += f'<rect x="{bx:.1f}" y="{by:.1f}" width="{bw:.1f}" height="{max(2,bh):.1f}" rx="3" fill="{col}"/>'
-        if i == peak:
-            bars += f'<text x="{bx+bw/2:.1f}" y="{by-4:.1f}" text-anchor="middle" font-size="9.5" font-weight="700" fill="{CYAN}">{v}</text>'
+        bars += f'<rect x="{bx:.1f}" y="{by:.1f}" width="{bw:.1f}" height="{max(2,bh):.1f}" rx="3" fill="{CYAN}"/>'
+        bars += f'<text x="{bx+bw/2:.1f}" y="{by-4:.1f}" text-anchor="middle" font-size="9.5" font-weight="700" fill="{TEXT}">{v}</text>'
         if i % 2 == 0 or i == n - 1:
             bars += f'<text x="{bx+bw/2:.1f}" y="{y0+ploth+14:.1f}" text-anchor="middle" font-size="8" fill="{MUTED}">{lab[2:]}</text>'
     return _frame(460, 160, bars, title="MONTHLY ACTIVITY")

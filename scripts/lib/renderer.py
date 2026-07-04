@@ -132,37 +132,19 @@ def _codetree_commit_stats() -> dict[str, dict]:
     return stats
 
 
-def _codetree_analysis_card(seqs: list[list[str]]) -> str:
-    """첫 시도 정답률·평균 시도·총 재도전 요약."""
-    if not seqs:
-        return ""
-    n = len(seqs)
-    one_shot = sum(1 for s in seqs if s == ["Passed"])
-    avg = sum(len(s) for s in seqs) / n
-    retries = sum(max(0, len(s) - 1) for s in seqs)
-    return (
-        "> ### 📈 Codetree 학습 분석\n"
-        f"> - **첫 시도 정답률**: {round(one_shot / n * 100)}% ({one_shot}/{n})\n"
-        f"> - **평균 시도 수**: {avg:.1f}회\n"
-        f"> - **총 재도전**: {retries}회"
-    )
-
-
 def render_codetree() -> str:
-    """trail* 폴더 → 트레일별 접이식 표 + 커밋 기반 시도·시간·메모리 + 분석 카드."""
+    """trail* 폴더 → 트레일별 접이식 표 + 커밋 기반 시도·시간·메모리."""
     sections = scan_codetree()
     if not sections:
         return "_코드트리(trail) 폴더가 없습니다._"
 
     stats = _codetree_commit_stats()
-    matched_seqs: list[list[str]] = []
     blocks: list[str] = []
     for trail, names in sections.items():
         rows: list[str] = []
         for name in names:
             e = stats.get(name.strip())
             if e and e["seq"]:
-                matched_seqs.append(e["seq"])
                 tries = _summarize_attempts(e["seq"])
                 t = f"{e['ms']}ms" if e["ms"] is not None else "-"
                 mem = f"{e['mb']}MB" if e["mb"] is not None else "-"
@@ -174,9 +156,8 @@ def render_codetree() -> str:
             "| 문제 | 시도 | 시간 | 메모리 |\n| --- | --- | ---: | ---: |\n" + "\n".join(rows),
         ))
 
-    card = _codetree_analysis_card(matched_seqs)
     detail = "\n\n".join(blocks)
-    return f"{card}\n\n{detail}" if card else detail
+    return detail
 
 
 def compute_platform_counts() -> list[tuple[str, int]]:
