@@ -1,0 +1,41 @@
+name: README 자동 갱신
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'README.md'
+      - 'assets/cards/**'
+      - 'scripts/.solvedac-cache.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # 커밋 로그 기반 시도 기록·월별 활동 차트를 위해 전체 히스토리를 가져옴
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: README 빌드
+        run: python3 scripts/generate_readme.py
+
+      - name: 변경사항 커밋 및 푸시
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md assets/cards scripts/.solvedac-cache.json
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: README 자동 갱신"
+            git push
+          else
+            echo "변경사항 없음 — 커밋 생략"
+          fi

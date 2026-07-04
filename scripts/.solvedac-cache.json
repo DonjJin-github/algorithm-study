@@ -1,0 +1,1062 @@
+{
+  "1000": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "A+B"
+  },
+  "1001": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "A-B"
+  },
+  "10026": {
+    "difficulty": "Gold V",
+    "level": 11,
+    "title": "적록색약"
+  },
+  "1008": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "A/B"
+  },
+  "1010": {
+    "difficulty": "Silver V",
+    "level": 6,
+    "title": "다리 놓기"
+  },
+  "1012": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "유기농 배추"
+  },
+  "10171": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "고양이"
+  },
+  "10172": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "개"
+  },
+  "1018": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "체스판 다시 칠하기"
+  },
+  "1026": {
+    "difficulty": "Silver IV",
+    "level": 7,
+    "title": "보물"
+  },
+  "1037": {
+    "difficulty": "Bronze I",
+    "level": 5,
+    "title": "약수"
+  },
+  "1043": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "거짓말"
+  },
+  "10430": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "나머지"
+  },
+  "10610": {
+    "difficulty": "Silver IV",
+    "level": 7,
+    "title": "30"
+  },
+  "1074": {
+    "difficulty": "Gold V",
+    "level": 11,
+    "title": "Z"
+  },
+  "10798": {
+    "difficulty": "Bronze I",
+    "level": 5,
+    "title": "세로읽기"
+  },
+  "10807": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "개수 세기"
+  },
+  "10809": {
+    "difficulty": "Bronze II",
+    "level": 4,
+    "title": "알파벳 찾기"
+  },
+  "10810": {
+    "difficulty": "Bronze III",
+    "level": 3,
+    "title": "공 넣기"
+  },
+  "10811": {
+    "difficulty": "Bronze II",
+    "level": 4,
+    "title": "바구니 뒤집기"
+  },
+  "10813": {
+    "difficulty": "Bronze II",
+    "level": 4,
+    "title": "공 바꾸기"
+  },
+  "10814": {
+    "difficulty": "Silver V",
+    "level": 6,
+    "title": "나이순 정렬"
+  },
+  "10815": {
+    "difficulty": "Silver V",
+    "level": 6,
+    "title": "숫자 카드"
+  },
+  "10816": {
+    "difficulty": "Silver IV",
+    "level": 7,
+    "title": "숫자 카드 2"
+  },
+  "10818": {
+    "difficulty": "Bronze III",
+    "level": 3,
+    "title": "최소, 최대"
+  },
+  "10869": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "사칙연산"
+  },
+  "10870": {
+    "difficulty": "Bronze II",
+    "level": 4,
+    "title": "피보나치 수 5"
+  },
+  "10871": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "X보다 작은 수"
+  },
+  "10872": {
+    "difficulty": "Bronze III",
+    "level": 3,
+    "title": "팩토리얼"
+  },
+  "10926": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "??!"
+  },
+  "10950": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "A+B - 3"
+  },
+  "10951": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "A+B - 4"
+  },
+  "10952": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "A+B - 5"
+  },
+  "10988": {
+    "difficulty": "Bronze III",
+    "level": 3,
+    "title": "팰린드롬인지 확인하기"
+  },
+  "10998": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "A×B"
+  },
+  "1100": {
+    "difficulty": "Bronze II",
+    "level": 4,
+    "title": "하얀 칸"
+  },
+  "11000": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "강의실 배정"
+  },
+  "11021": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "A+B - 7"
+  },
+  "11022": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "A+B - 8"
+  },
+  "11050": {
+    "difficulty": "Bronze I",
+    "level": 5,
+    "title": "이항 계수 1"
+  },
+  "11051": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "이항 계수 2"
+  },
+  "11286": {
+    "difficulty": "Silver I",
+    "level": 10,
+    "title": "절댓값 힙"
+  },
+  "11382": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "꼬마 정민"
+  },
+  "11399": {
+    "difficulty": "Silver IV",
+    "level": 7,
+    "title": "ATM"
+  },
+  "11403": {
+    "difficulty": "Silver I",
+    "level": 10,
+    "title": "경로 찾기"
+  },
+  "11404": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "플로이드"
+  },
+  "11478": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "서로 다른 부분 문자열의 개수"
+  },
+  "1149": {
+    "difficulty": "Silver I",
+    "level": 10,
+    "title": "RGB거리"
+  },
+  "11501": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "주식"
+  },
+  "1152": {
+    "difficulty": "Bronze II",
+    "level": 4,
+    "title": "단어의 개수"
+  },
+  "1157": {
+    "difficulty": "Bronze I",
+    "level": 5,
+    "title": "단어 공부"
+  },
+  "11650": {
+    "difficulty": "Silver V",
+    "level": 6,
+    "title": "좌표 정렬하기"
+  },
+  "11651": {
+    "difficulty": "Silver V",
+    "level": 6,
+    "title": "좌표 정렬하기 2"
+  },
+  "11653": {
+    "difficulty": "Bronze I",
+    "level": 5,
+    "title": "소인수분해"
+  },
+  "11654": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "아스키 코드"
+  },
+  "11659": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "구간 합 구하기 4"
+  },
+  "11718": {
+    "difficulty": "Bronze III",
+    "level": 3,
+    "title": "그대로 출력하기"
+  },
+  "11720": {
+    "difficulty": "Bronze IV",
+    "level": 2,
+    "title": "숫자의 합"
+  },
+  "11724": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "연결 요소의 개수"
+  },
+  "11725": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "트리의 부모 찾기"
+  },
+  "11729": {
+    "difficulty": "Gold V",
+    "level": 11,
+    "title": "하노이 탑 이동 순서"
+  },
+  "11779": {
+    "difficulty": "Gold III",
+    "level": 13,
+    "title": "최소비용 구하기 2"
+  },
+  "11780": {
+    "difficulty": "Gold II",
+    "level": 14,
+    "title": "플로이드 2"
+  },
+  "1181": {
+    "difficulty": "Silver V",
+    "level": 6,
+    "title": "단어 정렬"
+  },
+  "11866": {
+    "difficulty": "Silver IV",
+    "level": 7,
+    "title": "요세푸스 문제 0"
+  },
+  "1193": {
+    "difficulty": "Silver V",
+    "level": 6,
+    "title": "분수찾기"
+  },
+  "1197": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "최소 스패닝 트리"
+  },
+  "1238": {
+    "difficulty": "Gold III",
+    "level": 13,
+    "title": "파티"
+  },
+  "1253": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "좋다"
+  },
+  "1269": {
+    "difficulty": "Silver IV",
+    "level": 7,
+    "title": "대칭 차집합"
+  },
+  "12852": {
+    "difficulty": "Gold V",
+    "level": 11,
+    "title": "1로 만들기 2"
+  },
+  "12919": {
+    "difficulty": "Gold V",
+    "level": 11,
+    "title": "A와 B 2"
+  },
+  "1316": {
+    "difficulty": "Silver V",
+    "level": 6,
+    "title": "그룹 단어 체커"
+  },
+  "1325": {
+    "difficulty": "Silver I",
+    "level": 10,
+    "title": "효율적인 해킹"
+  },
+  "1330": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "두 수 비교하기"
+  },
+  "13975": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "파일 합치기 3"
+  },
+  "1427": {
+    "difficulty": "Silver V",
+    "level": 6,
+    "title": "소트인사이드"
+  },
+  "1436": {
+    "difficulty": "Silver V",
+    "level": 6,
+    "title": "영화감독 숌"
+  },
+  "14425": {
+    "difficulty": "Silver IV",
+    "level": 7,
+    "title": "문자열 집합"
+  },
+  "14503": {
+    "difficulty": "Gold V",
+    "level": 11,
+    "title": "로봇 청소기"
+  },
+  "1463": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "1로 만들기"
+  },
+  "14681": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "사분면 고르기"
+  },
+  "14888": {
+    "difficulty": "Silver I",
+    "level": 10,
+    "title": "연산자 끼워넣기"
+  },
+  "14921": {
+    "difficulty": "Gold V",
+    "level": 11,
+    "title": "용액 합성하기"
+  },
+  "14938": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "서강그라운드"
+  },
+  "1504": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "특정한 최단 경로"
+  },
+  "1541": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "잃어버린 괄호"
+  },
+  "15439": {
+    "difficulty": "Bronze IV",
+    "level": 2,
+    "title": "베라의 패션"
+  },
+  "1546": {
+    "difficulty": "Bronze I",
+    "level": 5,
+    "title": "평균"
+  },
+  "15552": {
+    "difficulty": "Bronze IV",
+    "level": 2,
+    "title": "빠른 A+B"
+  },
+  "15649": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "N과 M (1)"
+  },
+  "15650": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "N과 M (2)"
+  },
+  "15651": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "N과 M (3)"
+  },
+  "15652": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "N과 M (4)"
+  },
+  "15654": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "N과 M (5)"
+  },
+  "15655": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "N과 M (6)"
+  },
+  "15656": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "N과 M (7)"
+  },
+  "15657": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "N과 M (8)"
+  },
+  "15663": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "N과 M (9)"
+  },
+  "15664": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "N과 M (10)"
+  },
+  "15665": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "N과 M (11)"
+  },
+  "15666": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "N과 M (12)"
+  },
+  "1620": {
+    "difficulty": "Silver IV",
+    "level": 7,
+    "title": "나는야 포켓몬 마스터 이다솜"
+  },
+  "16398": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "행성 연결"
+  },
+  "16401": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "과자 나눠주기"
+  },
+  "1647": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "도시 분할 계획"
+  },
+  "1654": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "랜선 자르기"
+  },
+  "1655": {
+    "difficulty": "Gold II",
+    "level": 14,
+    "title": "가운데를 말해요"
+  },
+  "1697": {
+    "difficulty": "Silver I",
+    "level": 10,
+    "title": "숨바꼭질"
+  },
+  "1707": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "이분 그래프"
+  },
+  "1715": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "카드 정렬하기"
+  },
+  "1744": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "수 묶기"
+  },
+  "1753": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "최단경로"
+  },
+  "1759": {
+    "difficulty": "Gold V",
+    "level": 11,
+    "title": "암호 만들기"
+  },
+  "1764": {
+    "difficulty": "Silver IV",
+    "level": 7,
+    "title": "듣보잡"
+  },
+  "1766": {
+    "difficulty": "Gold II",
+    "level": 14,
+    "title": "문제집"
+  },
+  "1781": {
+    "difficulty": "Gold II",
+    "level": 14,
+    "title": "컵라면"
+  },
+  "1806": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "부분합"
+  },
+  "18108": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "1998년생인 내가 태국에서는 2541년생?!"
+  },
+  "1822": {
+    "difficulty": "Silver IV",
+    "level": 7,
+    "title": "차집합"
+  },
+  "18869": {
+    "difficulty": "Gold V",
+    "level": 11,
+    "title": "멀티버스 Ⅱ"
+  },
+  "18870": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "좌표 압축"
+  },
+  "1920": {
+    "difficulty": "Silver IV",
+    "level": 7,
+    "title": "수 찾기"
+  },
+  "1926": {
+    "difficulty": "Silver I",
+    "level": 10,
+    "title": "그림"
+  },
+  "1927": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "최소 힙"
+  },
+  "1929": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "소수 구하기"
+  },
+  "1931": {
+    "difficulty": "Gold V",
+    "level": 11,
+    "title": "회의실 배정"
+  },
+  "1991": {
+    "difficulty": "Silver I",
+    "level": 10,
+    "title": "트리 순회"
+  },
+  "2075": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "N번째 큰 수"
+  },
+  "20920": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "영단어 암기는 괴로워"
+  },
+  "2108": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "통계학"
+  },
+  "21276": {
+    "difficulty": "Gold II",
+    "level": 14,
+    "title": "계보 복원가 호석"
+  },
+  "2178": {
+    "difficulty": "Silver I",
+    "level": 10,
+    "title": "미로 탐색"
+  },
+  "21940": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "가운데에서 만나기"
+  },
+  "2206": {
+    "difficulty": "Gold III",
+    "level": 13,
+    "title": "벽 부수고 이동하기"
+  },
+  "2217": {
+    "difficulty": "Silver IV",
+    "level": 7,
+    "title": "로프"
+  },
+  "2230": {
+    "difficulty": "Gold V",
+    "level": 11,
+    "title": "수 고르기"
+  },
+  "2252": {
+    "difficulty": "Gold III",
+    "level": 13,
+    "title": "줄 세우기"
+  },
+  "2292": {
+    "difficulty": "Bronze II",
+    "level": 4,
+    "title": "벌집"
+  },
+  "2295": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "세 수의 합"
+  },
+  "24060": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "알고리즘 수업 - 병합 정렬 1"
+  },
+  "2438": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "별 찍기 - 1"
+  },
+  "2439": {
+    "difficulty": "Bronze IV",
+    "level": 2,
+    "title": "별 찍기 - 2"
+  },
+  "2444": {
+    "difficulty": "Bronze III",
+    "level": 3,
+    "title": "별 찍기 - 7"
+  },
+  "2447": {
+    "difficulty": "Gold V",
+    "level": 11,
+    "title": "별 찍기 - 10"
+  },
+  "2457": {
+    "difficulty": "Gold III",
+    "level": 13,
+    "title": "공주님의 정원"
+  },
+  "2467": {
+    "difficulty": "Gold V",
+    "level": 11,
+    "title": "용액"
+  },
+  "2468": {
+    "difficulty": "Silver I",
+    "level": 10,
+    "title": "안전 영역"
+  },
+  "24723": {
+    "difficulty": "Bronze IV",
+    "level": 2,
+    "title": "녹색거탑"
+  },
+  "2480": {
+    "difficulty": "Bronze IV",
+    "level": 2,
+    "title": "주사위 세개"
+  },
+  "25083": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "새싹"
+  },
+  "25192": {
+    "difficulty": "Silver IV",
+    "level": 7,
+    "title": "인사성 밝은 곰곰이"
+  },
+  "25206": {
+    "difficulty": "Silver V",
+    "level": 6,
+    "title": "너의 평점은"
+  },
+  "2525": {
+    "difficulty": "Bronze III",
+    "level": 3,
+    "title": "오븐 시계"
+  },
+  "25304": {
+    "difficulty": "Bronze IV",
+    "level": 2,
+    "title": "영수증"
+  },
+  "25314": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "코딩은 체육과목 입니다"
+  },
+  "25501": {
+    "difficulty": "Bronze II",
+    "level": 4,
+    "title": "재귀의 귀재"
+  },
+  "2557": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "Hello World"
+  },
+  "2562": {
+    "difficulty": "Bronze III",
+    "level": 3,
+    "title": "최댓값"
+  },
+  "2563": {
+    "difficulty": "Silver V",
+    "level": 6,
+    "title": "색종이"
+  },
+  "2566": {
+    "difficulty": "Bronze III",
+    "level": 3,
+    "title": "최댓값"
+  },
+  "2573": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "빙산"
+  },
+  "2579": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "계단 오르기"
+  },
+  "2583": {
+    "difficulty": "Silver I",
+    "level": 10,
+    "title": "영역 구하기"
+  },
+  "2588": {
+    "difficulty": "Bronze III",
+    "level": 3,
+    "title": "곱셈"
+  },
+  "2606": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "바이러스"
+  },
+  "26069": {
+    "difficulty": "Silver IV",
+    "level": 7,
+    "title": "붙임성 좋은 총총이"
+  },
+  "2617": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "구슬 찾기"
+  },
+  "2623": {
+    "difficulty": "Gold III",
+    "level": 13,
+    "title": "음악프로그램"
+  },
+  "2660": {
+    "difficulty": "Gold V",
+    "level": 11,
+    "title": "회장뽑기"
+  },
+  "2667": {
+    "difficulty": "Silver I",
+    "level": 10,
+    "title": "단지번호붙이기"
+  },
+  "2675": {
+    "difficulty": "Bronze II",
+    "level": 4,
+    "title": "문자열 반복"
+  },
+  "2720": {
+    "difficulty": "Bronze III",
+    "level": 3,
+    "title": "세탁소 사장 동혁"
+  },
+  "2738": {
+    "difficulty": "Bronze III",
+    "level": 3,
+    "title": "행렬 덧셈"
+  },
+  "2739": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "구구단"
+  },
+  "2743": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "단어 길이 재기"
+  },
+  "27433": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "팩토리얼 2"
+  },
+  "2745": {
+    "difficulty": "Bronze II",
+    "level": 4,
+    "title": "진법 변환"
+  },
+  "2753": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "윤년"
+  },
+  "27866": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "문자와 문자열"
+  },
+  "2805": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "나무 자르기"
+  },
+  "2839": {
+    "difficulty": "Silver IV",
+    "level": 7,
+    "title": "설탕 배달"
+  },
+  "2847": {
+    "difficulty": "Silver IV",
+    "level": 7,
+    "title": "게임을 만든 동준이"
+  },
+  "2884": {
+    "difficulty": "Bronze III",
+    "level": 3,
+    "title": "알람 시계"
+  },
+  "2896": {
+    "difficulty": "Bronze I",
+    "level": 5,
+    "title": "무알콜 칵테일"
+  },
+  "2903": {
+    "difficulty": "Bronze III",
+    "level": 3,
+    "title": "중앙 이동 알고리즘"
+  },
+  "2908": {
+    "difficulty": "Bronze II",
+    "level": 4,
+    "title": "상수"
+  },
+  "2941": {
+    "difficulty": "Silver V",
+    "level": 6,
+    "title": "크로아티아 알파벳"
+  },
+  "3003": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "킹, 퀸, 룩, 비숍, 나이트, 폰"
+  },
+  "3052": {
+    "difficulty": "Bronze II",
+    "level": 4,
+    "title": "나머지"
+  },
+  "3151": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "합이 0"
+  },
+  "4179": {
+    "difficulty": "Gold III",
+    "level": 13,
+    "title": "불!"
+  },
+  "4779": {
+    "difficulty": "Silver III",
+    "level": 8,
+    "title": "칸토어 집합"
+  },
+  "4803": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "트리"
+  },
+  "5014": {
+    "difficulty": "Silver I",
+    "level": 10,
+    "title": "스타트링크"
+  },
+  "5427": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "불"
+  },
+  "5567": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "결혼식"
+  },
+  "5597": {
+    "difficulty": "Bronze III",
+    "level": 3,
+    "title": "과제 안 내신 분..?"
+  },
+  "5622": {
+    "difficulty": "Bronze II",
+    "level": 4,
+    "title": "다이얼"
+  },
+  "6064": {
+    "difficulty": "Silver I",
+    "level": 10,
+    "title": "카잉 달력"
+  },
+  "6118": {
+    "difficulty": "Silver I",
+    "level": 10,
+    "title": "숨바꼭질"
+  },
+  "6593": {
+    "difficulty": "Gold V",
+    "level": 11,
+    "title": "상범 빌딩"
+  },
+  "6603": {
+    "difficulty": "Silver II",
+    "level": 9,
+    "title": "로또"
+  },
+  "7562": {
+    "difficulty": "Silver I",
+    "level": 10,
+    "title": "나이트의 이동"
+  },
+  "7569": {
+    "difficulty": "Gold V",
+    "level": 11,
+    "title": "토마토"
+  },
+  "7576": {
+    "difficulty": "Gold V",
+    "level": 11,
+    "title": "토마토"
+  },
+  "7785": {
+    "difficulty": "Silver V",
+    "level": 6,
+    "title": "회사에 있는 사람"
+  },
+  "8393": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "합"
+  },
+  "9086": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "문자열"
+  },
+  "9498": {
+    "difficulty": "Bronze V",
+    "level": 1,
+    "title": "시험 성적"
+  },
+  "9613": {
+    "difficulty": "Silver IV",
+    "level": 7,
+    "title": "GCD 합"
+  },
+  "9663": {
+    "difficulty": "Gold IV",
+    "level": 12,
+    "title": "N-Queen"
+  }
+}
