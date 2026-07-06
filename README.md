@@ -450,7 +450,7 @@
 </details>
 
 <details>
-<summary><b>Trail4</b> · 10문제</summary>
+<summary><b>Trail4</b> · 11문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
@@ -464,5 +464,6 @@
 | 뿌요뿌요 | ✅ | 108ms | 9MB |
 | 아름다운 수 | ✅ | 94ms | 9MB |
 | 안전 지대 | ✅ | 156ms | 11MB |
+| 알파벳과 사칙연산 | ✅ | 179ms | 12MB |
 
 </details>
