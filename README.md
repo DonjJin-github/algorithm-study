@@ -450,10 +450,11 @@
 </details>
 
 <details>
-<summary><b>Trail4</b> · 13문제</summary>
+<summary><b>Trail4</b> · 14문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
+| 1차원 윷놀이 | ✅ | 478ms | 10MB |
 | 2명의 도둑 | ✅ | 97ms | 9MB |
 | K개 중에 1개를 N번 뽑기 | ✅ | 374ms | 23MB |
 | 강력한 폭발 | ✅ | 98ms | 9MB |
