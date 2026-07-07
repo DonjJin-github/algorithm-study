@@ -450,7 +450,7 @@
 </details>
 
 <details>
-<summary><b>Trail4</b> · 12문제</summary>
+<summary><b>Trail4</b> · 13문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
@@ -466,5 +466,6 @@
 | 아름다운 수 | ✅ | 94ms | 9MB |
 | 안전 지대 | ✅ | 156ms | 11MB |
 | 알파벳과 사칙연산 | ✅ | 179ms | 12MB |
+| 특정 조건에 맞게 K개 중에 1개를 N번 뽑기 | ✅ | 380ms | 23MB |
 
 </details>
