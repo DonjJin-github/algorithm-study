@@ -450,11 +450,12 @@
 </details>
 
 <details>
-<summary><b>Trail4</b> · 19문제</summary>
+<summary><b>Trail4</b> · 20문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
 | 1차원 윷놀이 | ✅ | 478ms | 10MB |
+| 2N개 중에 N개의 숫자를 적절하게 고르기 | ✅ | 98ms | 9MB |
 | 2명의 도둑 | ✅ | 97ms | 9MB |
 | K개 중에 1개를 N번 뽑기 | ✅ | 374ms | 23MB |
 | N개 중에 M개 뽑기 | ✅ | 101ms | 9MB |
