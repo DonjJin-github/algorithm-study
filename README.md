@@ -450,7 +450,7 @@
 </details>
 
 <details>
-<summary><b>Trail4</b> · 29문제</summary>
+<summary><b>Trail4</b> · 30문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
@@ -483,5 +483,6 @@
 | 최소 점프 횟수 | ✅ | 94ms | 9MB |
 | 크기가 N인 순열 | ✅ | 327ms | 21MB |
 | 특정 조건에 맞게 K개 중에 1개를 N번 뽑기 | ✅ | 380ms | 23MB |
+| 피보나치 수 | ✅ | 102ms | 9MB |
 
 </details>
