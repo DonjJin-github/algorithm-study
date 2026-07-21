@@ -7,6 +7,8 @@
 <div align="center"><img src="./assets/cards/daily.svg" alt="daily activity"/></div>
 <br/>
 <div align="center"><img src="./assets/cards/activity.svg" alt="monthly activity"/></div>
+<br/>
+<div align="center"><img src="./assets/cards/attempts.svg" alt="toughest"/></div>
 
 ## 폴더 구조
 - **trail2/, trail4/**: 코드트리 트레일 문제 (문제별 폴더 + 풀이)
@@ -512,6 +514,6 @@
 | 순서를 바꾸었을 때 같은 단어 그룹화하기 | ✅ | 1978ms | 31MB |
 | 원소의 합이 0 | ✅ | 977ms | 59MB |
 | 자주 등장한 top K 숫자 | ✅ | 694ms | 27MB |
-| 특별한 문자 | ✅ | 555ms | 27MB |
+| 특별한 문자 | ✅×2 | 393ms | 24MB |
 
 </details>
