@@ -94,6 +94,39 @@ def platforms_card(rows, total):
     return _frame(460, 200, arcs + center + legend, title="PLATFORMS")
 
 
+def daily_card(rows):
+    rows = rows[:5]
+    row_height = 28
+    box_top = 48
+    box_left = 20
+    box_width = 420
+    chart_x = 120
+    count_x = box_left + box_width - 18
+    chart_w = count_x - chart_x - 24
+    side_gap = 16
+    container_h = len(rows) * row_height + side_gap * 2
+    body = (
+        f'<rect x="{box_left}" y="{box_top}" width="{box_width}" height="{container_h}" rx="18" fill="#09101a" stroke="#1b2631" stroke-width="1.4"/>'
+    )
+    max_value = max((count for _, count in rows), default=1)
+    for i, (day, count) in enumerate(rows):
+        y = box_top + side_gap + i * row_height + row_height / 2
+        label = f"{day[2:4]}/{day[5:7]}/{day[8:]}"
+        pct = count / max_value if max_value else 0
+        body += f'<text x="{box_left + 16}" y="{y}" font-size="11" fill="{TEXT}" dominant-baseline="middle">{_esc(label)}</text>'
+        body += _bar(chart_x, y - 7, chart_w, 14, pct, "url(#daily-gradient)")
+        body += f'<text x="{count_x}" y="{y}" font-size="11" fill="{TEXT}" dominant-baseline="middle" text-anchor="end">{count}</text>'
+        if i < len(rows) - 1:
+            body += f'<line x1="{box_left + 16}" y1="{box_top + side_gap + (i + 1) * row_height}" x2="{box_left + box_width - 16}" y2="{box_top + side_gap + (i + 1) * row_height}" stroke="#16203a" stroke-width="1"/>'
+    extra_defs = (
+        '<linearGradient id="daily-gradient" x1="0" y1="0" x2="1" y2="0">'
+        '<stop offset="0%" stop-color="#2ee6d6"/><stop offset="100%" stop-color="#60a7ff"/>'
+        '</linearGradient>'
+    )
+    total_height = box_top + container_h + 16
+    return _frame(460, total_height, body, title="DAILY ACTIVITY", extra_defs=extra_defs)
+
+
 def activity_card(months):
     x0, y0, plotw, ploth = 20, 50, 420, 80
     vals = [v for _, v in months]
@@ -106,10 +139,15 @@ def activity_card(months):
         bh = ploth * (v / mx)
         bx = x0 + i * gap + (gap - bw) / 2
         by = y0 + ploth - bh
-        bars += f'<rect x="{bx:.1f}" y="{by:.1f}" width="{bw:.1f}" height="{max(2,bh):.1f}" rx="3" fill="{CYAN}"/>'
+        bars += f'<rect x="{bx:.1f}" y="{by:.1f}" width="{bw:.1f}" height="{max(2,bh):.1f}" rx="3" fill="url(#monthly-gradient)"/>'
         bars += f'<text x="{bx+bw/2:.1f}" y="{by-4:.1f}" text-anchor="middle" font-size="9.5" font-weight="700" fill="{TEXT}">{v}</text>'
         bars += f'<text x="{bx+bw/2:.1f}" y="{y0+ploth+14:.1f}" text-anchor="middle" font-size="8.5" fill="{MUTED}">{lab[2:]}</text>'
-    return _frame(460, 160, bars, title="MONTHLY ACTIVITY")
+    extra_defs = (
+        '<linearGradient id="monthly-gradient" x1="0" y1="0" x2="0" y2="1">'
+        '<stop offset="0%" stop-color="#5f8cff"/><stop offset="100%" stop-color="#2ee6d6"/>'
+        '</linearGradient>'
+    )
+    return _frame(460, 160, bars, title="MONTHLY ACTIVITY", extra_defs=extra_defs)
 
 
 def attempts_card(rows, max_cells=14):

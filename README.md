@@ -4,6 +4,8 @@
 
 <div align="center"><img src="./assets/cards/platforms.svg" alt="platforms"/></div>
 <br/>
+<div align="center"><img src="./assets/cards/daily.svg" alt="daily activity"/></div>
+<br/>
 <div align="center"><img src="./assets/cards/activity.svg" alt="monthly activity"/></div>
 
 ## 폴더 구조

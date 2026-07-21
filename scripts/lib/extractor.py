@@ -71,6 +71,8 @@ def _git_log(format_str: str) -> list[str]:
             ["git", "log", f"--format={format_str}"],
             capture_output=True,
             text=True,
+            encoding="utf-8",
+            errors="replace",
             cwd=config.ROOT,
             check=True,
         )

@@ -1,3 +1,5 @@
+from datetime import date, timedelta
+
 from lib import config, svgcards as sv
 from lib.extractor import _git_log
 from lib.renderer import compute_platform_counts
@@ -20,6 +22,20 @@ def _monthly(months=9):
     return [(k, monthly[k]) for k in keys]
 
 
+def _daily(days=5):
+    daily = {}
+    for line in _git_log("%aI %s"):
+        parts = line.split(" ", 1)
+        if len(parts) < 2:
+            continue
+        commit_date, subject = parts
+        if any(p.match(subject) for p in config.PROBLEM_COMMIT_PATTERNS):
+            daily[commit_date[:10]] = daily.get(commit_date[:10], 0) + 1
+    today = date.today()
+    return [((today - timedelta(days=i)).isoformat(), daily.get((today - timedelta(days=i)).isoformat(), 0))
+            for i in range(days)]
+
+
 def _attempts(top_n=5):
     seqs = {}
     for line in reversed(_git_log("%s")):  # 오래된→최신 순서로 시도 쌓기
@@ -40,6 +56,7 @@ def render_all() -> bool:
     rows = compute_platform_counts()
     total = sum(c for _, c in rows)
     (ASSETS / "platforms.svg").write_text(sv.platforms_card(rows, total), encoding="utf-8")
+    (ASSETS / "daily.svg").write_text(sv.daily_card(_daily()), encoding="utf-8")
     (ASSETS / "activity.svg").write_text(sv.activity_card(_monthly()), encoding="utf-8")
     att = _attempts()
     if att:
@@ -56,6 +73,7 @@ def _center(img, alt):
 def overview_md(has_attempts: bool):
     parts = [
         _center("platforms.svg", "platforms"),
+        _center("daily.svg", "daily activity"),
         _center("activity.svg", "monthly activity"),
     ]
     if has_attempts:
