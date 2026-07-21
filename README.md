@@ -499,7 +499,7 @@
 </details>
 
 <details>
-<summary><b>Trail5</b> · 9문제</summary>
+<summary><b>Trail5</b> · 10문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
@@ -512,5 +512,6 @@
 | 순서를 바꾸었을 때 같은 단어 그룹화하기 | ✅ | 1978ms | 31MB |
 | 원소의 합이 0 | ✅ | 977ms | 59MB |
 | 자주 등장한 top K 숫자 | ✅ | 694ms | 27MB |
+| 특별한 문자 | ✅ | 555ms | 27MB |
 
 </details>
