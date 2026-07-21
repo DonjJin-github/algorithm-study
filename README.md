@@ -499,7 +499,7 @@
 </details>
 
 <details>
-<summary><b>Trail5</b> · 6문제</summary>
+<summary><b>Trail5</b> · 7문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
@@ -509,5 +509,6 @@
 | 두 수의 합 | ✅ | 366ms | 21MB |
 | 세 수의 합 | ✅ | 1749ms | 181MB |
 | 수 등장 횟수 | ✅ | 472ms | 23MB |
+| 자주 등장한 top K 숫자 | ✅ | 694ms | 27MB |
 
 </details>
