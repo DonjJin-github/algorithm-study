@@ -501,12 +501,13 @@
 </details>
 
 <details>
-<summary><b>Trail5</b> · 10문제</summary>
+<summary><b>Trail5</b> · 11문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
 | hashmap 기본 | ✅ | 363ms | 21MB |
 | 가장 많은 데이터 | ✅ | 371ms | 22MB |
+| 낮은 지점들 | ✅ | 464ms | 24MB |
 | 대응되는 수와 문자 | ✅ | 832ms | 40MB |
 | 두 수의 합 | ✅ | 366ms | 21MB |
 | 세 수의 합 | ✅ | 1749ms | 181MB |
