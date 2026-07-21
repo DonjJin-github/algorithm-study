@@ -497,3 +497,12 @@
 | 피보나치 수 | ✅ | 102ms | 9MB |
 
 </details>
+
+<details>
+<summary><b>Trail5</b> · 1문제</summary>
+
+| 문제 | 시도 | 시간 | 메모리 |
+| --- | --- | ---: | ---: |
+| hashmap 기본 | ✅ | 363ms | 21MB |
+
+</details>
