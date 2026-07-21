@@ -499,7 +499,7 @@
 </details>
 
 <details>
-<summary><b>Trail5</b> · 5문제</summary>
+<summary><b>Trail5</b> · 6문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
@@ -507,6 +507,7 @@
 | 가장 많은 데이터 | ✅ | 371ms | 22MB |
 | 대응되는 수와 문자 | ✅ | 832ms | 40MB |
 | 두 수의 합 | ✅ | 366ms | 21MB |
+| 세 수의 합 | ✅ | 1749ms | 181MB |
 | 수 등장 횟수 | ✅ | 472ms | 23MB |
 
 </details>
