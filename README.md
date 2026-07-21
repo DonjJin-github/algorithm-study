@@ -499,10 +499,11 @@
 </details>
 
 <details>
-<summary><b>Trail5</b> · 1문제</summary>
+<summary><b>Trail5</b> · 2문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
 | hashmap 기본 | ✅ | 363ms | 21MB |
+| 수 등장 횟수 | ✅ | 472ms | 23MB |
 
 </details>
