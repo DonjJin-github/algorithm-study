@@ -501,7 +501,7 @@
 </details>
 
 <details>
-<summary><b>Trail5</b> · 12문제</summary>
+<summary><b>Trail5</b> · 13문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
@@ -516,6 +516,7 @@
 | 원소의 합이 0 | ✅ | 977ms | 59MB |
 | 자연수 n개의 합 | ✅ | 96ms | 9MB |
 | 자주 등장한 top K 숫자 | ✅ | 694ms | 27MB |
+| 정수 분배하기 | ✅ | 106ms | 10MB |
 | 특별한 문자 | ✅×2 | 393ms | 24MB |
 
 </details>
