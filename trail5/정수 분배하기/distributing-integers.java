@@ -19,8 +19,6 @@ public class Main {
         int left = 1;
         int right = 100000;
 
-        int ans = 0;
-
         while(left<=right){
             int mid = (left+right)/2;
 
@@ -30,13 +28,12 @@ public class Main {
             }
 
             if(sum >= M){
-                ans = Math.max(ans, mid);
                 left = mid+1;
             }else{
                 right = mid-1;
             }
         }
-        bw.write(ans+"\n");
+        bw.write(left-1+"\n");
         bw.flush();
         
     }
