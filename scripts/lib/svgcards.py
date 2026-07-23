@@ -150,16 +150,3 @@ def activity_card(months):
     return _frame(460, 160, bars, title="MONTHLY ACTIVITY", extra_defs=extra_defs)
 
 
-def attempts_card(rows, max_cells=14):
-    y = 50
-    body = ""
-    for name, seq in rows:
-        nm = name if len(name) <= 16 else name[:15] + "…"
-        body += f'<text x="20" y="{y+12}" font-size="12" font-weight="600" fill="{TEXT}">{_esc(nm)}</text>'
-        x = 190
-        for ch in seq[-max_cells:]:
-            body += f'<rect x="{x}" y="{y+1}" width="13" height="13" rx="3" fill="{STATUS_COLOR.get(ch, WIP)}"/>'
-            x += 16
-        body += f'<text x="440" y="{y+12}" text-anchor="end" font-size="11" fill="{MUTED}">{len(seq)}회</text>'
-        y += 28
-    return _frame(460, y + 6, body, title="정복한 난관")

@@ -23,9 +23,6 @@ PROBLEM_COMMIT_PATTERNS = [
 ]
 
 # 코드트리 커밋: "[Passed] 문제명 (12ms, 3MB)" → status, 이름, ms, mb (perf 는 선택)
-ATTEMPT_PATTERN = re.compile(
-    r"^\[(Passed|Wrong Answer|Time Limit Exceed|WIP)\]\s+(.+?)(?:\s*\([^)]*\))?\s*$"
-)
 CODETREE_COMMIT_PATTERN = re.compile(
     r"^\[(Passed|Wrong Answer|Time Limit Exceed|WIP)\]\s+(.+?)\s*"
     r"(?:\((\d+)\s*ms,\s*(\d+)\s*MB\))?\s*$"

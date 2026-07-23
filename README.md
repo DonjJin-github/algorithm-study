@@ -7,8 +7,6 @@
 <div align="center"><img src="./assets/cards/daily.svg" alt="daily activity"/></div>
 <br/>
 <div align="center"><img src="./assets/cards/activity.svg" alt="monthly activity"/></div>
-<br/>
-<div align="center"><img src="./assets/cards/attempts.svg" alt="toughest"/></div>
 
 ## 폴더 구조
 - **trail2/, trail4/**: 코드트리 트레일 문제 (문제별 폴더 + 풀이)
