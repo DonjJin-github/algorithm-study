@@ -499,7 +499,7 @@
 </details>
 
 <details>
-<summary><b>Trail5</b> · 23문제</summary>
+<summary><b>Trail5</b> · 24문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
@@ -526,5 +526,6 @@
 | 최단 거리 9 | ✅ | 566ms | 35MB |
 | 최대 수 만들기 | ✅ | 1076ms | 82MB |
 | 특별한 문자 | ✅×2 | 393ms | 24MB |
+| 행렬로 주어진 간선 | ✅ | 117ms | 9MB |
 
 </details>
