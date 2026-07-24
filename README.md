@@ -533,3 +533,12 @@
 | 행렬로 주어진 간선 | ✅ | 117ms | 9MB |
 
 </details>
+
+<details>
+<summary><b>Trail6</b> · 1문제</summary>
+
+| 문제 | 시도 | 시간 | 메모리 |
+| --- | --- | ---: | ---: |
+| 친구의 키 | ✅ | 469ms | 26MB |
+
+</details>
