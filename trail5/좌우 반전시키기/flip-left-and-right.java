@@ -18,7 +18,7 @@ public class Main {
 
         int ans = 0;
         for(int i=1;i<N;i++){
-            if(arr[i-1]==0){
+            if(arr[i-1] == 0){
                 toggle(i);
                 ans++;
             }
@@ -29,15 +29,16 @@ public class Main {
             bw.write("-1\n");
         bw.flush();
     }
-
     static void toggle(int idx){
-        for(int i=idx-1;i<idx+2;i++){
+        for(int i = idx-1;i<idx+2;i++){
             if(i>=N)
-                break;
-            if(arr[i] == 0)
+                continue;
+            if(arr[i]==0){
                 arr[i] = 1;
-            else
+            }
+            else{
                 arr[i] = 0;
+            }
         }
     }
 }
