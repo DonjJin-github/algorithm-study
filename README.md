@@ -536,7 +536,7 @@
 </details>
 
 <details>
-<summary><b>Trail6</b> · 10문제</summary>
+<summary><b>Trail6</b> · 11문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
@@ -550,5 +550,6 @@
 | 친구의 키 | ✅ | 469ms | 26MB |
 | 친구의 키 2 | ✅ | 378ms | 24MB |
 | 크기 비교 3 | ✅ | 572ms | 30MB |
+| 트리 완성 | ✅ | 444ms | 21MB |
 
 </details>
