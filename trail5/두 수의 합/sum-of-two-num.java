@@ -7,24 +7,20 @@ public class Main {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
-        
         int N = Integer.parseInt(st.nextToken());
         int K = Integer.parseInt(st.nextToken());
 
         HashMap<Integer, Integer> map = new HashMap<>();
         st = new StringTokenizer(br.readLine());
-        int answer = 0;
+        int ans = 0;
         for(int i=0;i<N;i++){
-            int x = Integer.parseInt(st.nextToken());
-            int need = K-x;
+            int a = Integer.parseInt(st.nextToken());
+            ans += map.getOrDefault(K-a, 0);
 
-            answer += map.getOrDefault(need, 0);
-
-            map.put(x, map.getOrDefault(x, 0) + 1);
+            map.put(a, map.getOrDefault(a,0)+1);
         }
-
-        bw.write(answer+"\n");
-        bw.flush();
         
+        bw.write(ans+"\n");
+        bw.flush();
     }
 }
