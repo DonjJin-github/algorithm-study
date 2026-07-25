@@ -536,10 +536,11 @@
 </details>
 
 <details>
-<summary><b>Trail6</b> · 6문제</summary>
+<summary><b>Trail6</b> · 7문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
+| 경로의 적합성 판단 2 | ✅ | 353ms | 21MB |
 | 집합의 원소 | ✅ | 409ms | 24MB |
 | 최소 스패닝 트리 8 | ✅ | 138ms | 10MB |
 | 최소 스패닝 트리 9 | ✅ | 1093ms | 46MB |
