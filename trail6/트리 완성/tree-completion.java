@@ -10,24 +10,26 @@ public class Main {
         StringTokenizer st = new StringTokenizer(br.readLine());
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
+
         p = new int[N+1];
         Arrays.fill(p, -1);
-
+        
         int ans = 0;
         for(int i=0;i<M;i++){
             st = new StringTokenizer(br.readLine());
             int u = Integer.parseInt(st.nextToken());
             int v = Integer.parseInt(st.nextToken());
-            if(find(u)==find(v))
+            if(find(u) == find(v))
                 ans++;
-            uni(u,v);
+            else
+                uni(u,v);
         }
-        HashSet<Integer> set = new HashSet<>();
         for(int i=1;i<=N;i++){
-            set.add(find(i));
+            if(p[i]<0)
+                ans++;
         }
 
-        bw.write(ans+set.size()-1+"\n");
+        bw.write(ans-1+"\n");
         bw.flush();
     }
     static int find(int x){
