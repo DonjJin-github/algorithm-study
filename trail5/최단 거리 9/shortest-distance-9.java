@@ -9,7 +9,7 @@ public class Main {
     static class Node implements Comparable<Node>{
         int v;
         int cost;
-        
+
         Node(int v, int cost){
             this.v = v;
             this.cost = cost;
@@ -25,35 +25,34 @@ public class Main {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
-        
-        int N  = Integer.parseInt(st.nextToken());
-        int M  = Integer.parseInt(st.nextToken());
+        int N = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
 
         distance = new int[N+1];
         parent = new int[N+1];
         for(int i=0;i<=N;i++){
-            distance[i] = INF;
             graph.add(new ArrayList<>());
+            distance[i] = INF;
         }
+
         for(int i=0;i<M;i++){
             st = new StringTokenizer(br.readLine());
-            int u  = Integer.parseInt(st.nextToken());
-            int v  = Integer.parseInt(st.nextToken());
-            int cost  = Integer.parseInt(st.nextToken());
+            int u = Integer.parseInt(st.nextToken());
+            int v = Integer.parseInt(st.nextToken());
+            int cost = Integer.parseInt(st.nextToken());
 
-            graph.get(u).add(new int[]{v,cost});
-            graph.get(v).add(new int[]{u,cost});
+            graph.get(u).add(new int[]{v, cost});
+            graph.get(v).add(new int[]{u, cost});
         }
-        
         st = new StringTokenizer(br.readLine());
         int start = Integer.parseInt(st.nextToken());
         int end = Integer.parseInt(st.nextToken());
-        
-        djk(start);
+
+        dijk(start);
 
         ArrayList<Integer> list = new ArrayList<>();
         int cur = end;
-        while(cur != start){
+        while(cur!=start){
             list.add(cur);
             cur = parent[cur];
         }
@@ -64,27 +63,25 @@ public class Main {
         for(int print : list)
             bw.write(print+" ");
         bw.flush();
-
     }
-    static void djk(int start){
+    static void dijk(int start){
         PriorityQueue<Node> pq = new PriorityQueue<>();
 
-        pq.add(new Node(start, 0));
+        pq.add(new Node(start,0));
         distance[start] = 0;
 
         while(!pq.isEmpty()){
             Node cur = pq.poll();
 
-            if(cur.cost != distance[cur.v])
+            if(distance[cur.v] != cur.cost)
                 continue;
-            
-            for(int[] next : graph.get(cur.v)){
-                int d = cur.cost + next[1];
 
-                if(d<distance[next[0]]){
-                    pq.add(new Node(next[0], d));
+            for(int[] next : graph.get(cur.v)){
+                int d = next[1] + cur.cost;
+                if(distance[next[0]]>d){
                     distance[next[0]] = d;
                     parent[next[0]] = cur.v;
+                    pq.add(new Node(next[0],d));
                 }
             }
         }
