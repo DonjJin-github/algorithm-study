@@ -536,11 +536,12 @@
 </details>
 
 <details>
-<summary><b>Trail6</b> · 9문제</summary>
+<summary><b>Trail6</b> · 10문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
 | 경로의 적합성 판단 2 | ✅ | 353ms | 21MB |
+| 그래프의 사이클 | ✅ | 110ms | 9MB |
 | 연결된 정점 | ✅ | 463ms | 32MB |
 | 정점 연결하기 | ✅ | 368ms | 21MB |
 | 집합의 원소 | ✅ | 409ms | 24MB |
