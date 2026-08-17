@@ -452,6 +452,15 @@
 </details>
 
 <details>
+<summary><b>Trail3</b> · 1문제</summary>
+
+| 문제 | 시도 | 시간 | 메모리 |
+| --- | --- | ---: | ---: |
+| 이진탐색? | ✅ | - | - |
+
+</details>
+
+<details>
 <summary><b>Trail4</b> · 53문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
