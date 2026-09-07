@@ -522,13 +522,14 @@
 </details>
 
 <details>
-<summary><b>Trail5</b> · 41문제</summary>
+<summary><b>Trail5</b> · 42문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
 | G & H 반전시키기 | ✅×3 | 107ms | 9MB |
 | G & H 반전시키기 2 | ✅ | 109ms | 9MB |
 | hashmap 기본 | ✅ | 363ms | 21MB |
+| treemap 기본 | ✅ | 282ms | 19MB |
 | 가장 많은 데이터 | ✅ | 371ms | 22MB |
 | 가장 먼저 나오는 숫자 | ✅ | 404ms | 22MB |
 | 가장 오래 걸리는 학생 | ✅ | 734ms | 40MB |
