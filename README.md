@@ -522,10 +522,11 @@
 </details>
 
 <details>
-<summary><b>Trail5</b> · 50문제</summary>
+<summary><b>Trail5</b> · 51문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
+| C-TAG | ✅ | 2624ms | 185MB |
 | G & H 반전시키기 | ✅×3 | 107ms | 9MB |
 | G & H 반전시키기 2 | ✅ | 109ms | 9MB |
 | hashmap 기본 | ✅ | 363ms | 21MB |
