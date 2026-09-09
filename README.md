@@ -522,7 +522,7 @@
 </details>
 
 <details>
-<summary><b>Trail5</b> · 59문제</summary>
+<summary><b>Trail5</b> · 60문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
@@ -531,6 +531,7 @@
 | G & H 반전시키기 2 | ✅ | 109ms | 9MB |
 | hashmap 기본 | ✅ | 363ms | 21MB |
 | hashset 기본 | ✅ | 334ms | 23MB |
+| top K 숫자 | ✅ | 455ms | 25MB |
 | treemap 기본 | ✅ | 282ms | 19MB |
 | treeset 기본 | ✅ | 148ms | 11MB |
 | 가까운 숫자 | ✅ | 340ms | 19MB |
