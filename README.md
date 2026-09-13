@@ -523,7 +523,7 @@
 </details>
 
 <details>
-<summary><b>Trail5</b> · 69문제</summary>
+<summary><b>Trail5</b> · 70문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
@@ -536,6 +536,7 @@
 | treemap 기본 | ✅ | 282ms | 19MB |
 | treeset 기본 | ✅ | 148ms | 11MB |
 | 가까운 숫자 | ✅ | 340ms | 19MB |
+| 가장 가까운 점 | ✅ | 419ms | 30MB |
 | 가장 많은 데이터 | ✅ | 371ms | 22MB |
 | 가장 먼저 나오는 숫자 | ✅ | 404ms | 22MB |
 | 가장 오래 걸리는 학생 | ✅ | 734ms | 40MB |
