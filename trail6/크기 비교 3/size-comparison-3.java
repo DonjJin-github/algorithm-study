@@ -2,11 +2,11 @@ import java.util.*;
 import java.io.*;
 
 public class Main {
-    static int[] indeg;
     static ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
-    static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+    static int[] indeg;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
         int N = Integer.parseInt(st.nextToken());
@@ -26,24 +26,26 @@ public class Main {
             indeg[v]++;
         }
 
-        PriorityQueue<Integer> q = new PriorityQueue<>();
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+
         for(int i=1;i<=N;i++){
-            if(indeg[i] == 0){
-                q.add(i);
-            }
+            if(indeg[i]==0)
+                pq.add(i);
         }
 
-        while(!q.isEmpty()){
-            int cur = q.poll();
+        while(!pq.isEmpty()){
+            int cur = pq.poll();
+            
             bw.write(cur+" ");
-
+            
             for(int next : graph.get(cur)){
                 indeg[next]--;
-                if(indeg[next]==0){
-                    q.add(next);
+                if(indeg[next] == 0){
+                    pq.add(next);
                 }
             }
         }
+
         bw.flush();
     }
 }
