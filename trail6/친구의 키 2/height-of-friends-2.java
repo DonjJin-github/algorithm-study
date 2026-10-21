@@ -9,28 +9,29 @@ public class Main {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int N = Integer.parseInt(st.nextToken());
-        int M = Integer.parseInt(st.nextToken());
-        
-        indeg = new int[N+1];
-        for(int i=0;i<=N;i++)
+        int n = Integer.parseInt(st.nextToken());
+        int m = Integer.parseInt(st.nextToken());
+
+        indeg = new int[n+1];
+        for(int i=0;i<=n;i++){
             graph.add(new ArrayList<>());
-        
-        for(int i=0;i<M;i++){
+        }
+
+        for(int i=0;i<m;i++){
             st = new StringTokenizer(br.readLine());
             int u = Integer.parseInt(st.nextToken());
             int v = Integer.parseInt(st.nextToken());
 
             graph.get(u).add(v);
-            indeg[v]++;   
+            indeg[v]++;
         }
-        Queue<Integer> q = new ArrayDeque<>();
-        int count = 0;
 
-        for(int i=1;i<=N;i++){
+        ArrayList<Integer> list = new ArrayList<>();
+        Queue<Integer> q = new ArrayDeque<>();
+        for(int i=1;i<=n;i++){
             if(indeg[i]==0){
+                list.add(i);
                 q.add(i);
-                count++;
             }
         }
 
@@ -41,14 +42,16 @@ public class Main {
                 indeg[next]--;
                 if(indeg[next]==0){
                     q.add(next);
-                    count++;
+                    list.add(next);
                 }
             }
         }
-        if(count==N)
-            bw.write("Consistent\n");
+
+        if(list.size()==n)
+            bw.write("Consistent");
         else
-            bw.write("Inconsistent\n");
+            bw.write("Inconsistent");
+
         bw.flush();
     }
 }
