@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 public class Main {
-    static int p[];
+    static int[] p;
     static class Node implements Comparable<Node>{
         int u;
         int v;
@@ -13,10 +13,10 @@ public class Main {
             this.v = v;
             this.cost = cost;
         }
-        
+
         @Override
         public int compareTo(Node newNode){
-            return Integer.compare(cost,newNode.cost);
+            return Integer.compare(cost, newNode.cost);
         }
     }
     public static void main(String[] args) throws IOException {
@@ -26,49 +26,54 @@ public class Main {
         StringTokenizer st = new StringTokenizer(br.readLine());
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
-        p = new int[N*M+1];
+
         PriorityQueue<Node> pq = new PriorityQueue<>();
 
-        for(int i=0;i<=N*M;i++){
-            p[i] = -1;
-        }
         for(int i=0;i<N;i++){
             st = new StringTokenizer(br.readLine());
             for(int j=1;j<M;j++){
-                int u = M*i+j;
+                int u = i*M+j;
                 int v = u+1;
                 int cost = Integer.parseInt(st.nextToken());
 
                 pq.add(new Node(u,v,cost));
             }
         }
+
         for(int i=0;i<N-1;i++){
             st = new StringTokenizer(br.readLine());
             for(int j=1;j<=M;j++){
-                int u = M*i+j;
+                int u = i*M+j;
                 int v = u+M;
                 int cost = Integer.parseInt(st.nextToken());
 
                 pq.add(new Node(u,v,cost));
             }
         }
+        
+        p = new int[N*M+1];
+        Arrays.fill(p, -1);
+
+        int edge = 0;
         int ans = 0;
-        while(!pq.isEmpty()){
+        while(edge < N*M-1 && !pq.isEmpty()){
             Node cur = pq.poll();
 
-            if(find(cur.u)==find(cur.v))
+            if(find(cur.u)==find(cur.v)){
                 continue;
-            
+            }
+            edge++;
             uni(cur.u, cur.v);
             ans+=cur.cost;
         }
 
-        bw.write(ans+"\n");
+        bw.write(ans+" ");
         bw.flush();
     }
     static int find(int x){
         if(p[x]<0)
             return x;
+        
         return p[x] = find(p[x]);
     }
 
@@ -78,13 +83,16 @@ public class Main {
 
         if(u==v)
             return false;
+        
         if(p[v]<p[u]){
-            int temp = p[u];
-            p[u] = p[v];
-            p[v] = temp;
+            int temp = u;
+            u = v;
+            v = temp;
         }
-        if(p[u]==p[v])
+
+        if(p[u]==p[v]){
             p[u]--;
+        }
 
         p[v] = u;
         return true;
