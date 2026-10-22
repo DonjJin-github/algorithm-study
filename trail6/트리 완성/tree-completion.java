@@ -8,12 +8,13 @@ public class Main {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
+        
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
 
         p = new int[N+1];
         Arrays.fill(p, -1);
-        
+
         int ans = 0;
         for(int i=0;i<M;i++){
             st = new StringTokenizer(br.readLine());
@@ -24,12 +25,13 @@ public class Main {
             else
                 uni(u,v);
         }
+
         for(int i=1;i<=N;i++){
             if(p[i]<0)
                 ans++;
         }
 
-        bw.write(ans-1+"\n");
+        bw.write(ans-1+"");
         bw.flush();
     }
     static int find(int x){
@@ -38,11 +40,12 @@ public class Main {
         
         return p[x] = find(p[x]);
     }
+
     static boolean uni(int u, int v){
         u = find(u);
         v = find(v);
 
-        if(u == v)
+        if(u==v)
             return false;
         
         if(p[v]<p[u]){
