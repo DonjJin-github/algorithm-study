@@ -526,7 +526,7 @@
 </details>
 
 <details>
-<summary><b>Trail5</b> · 78문제</summary>
+<summary><b>Trail5</b> · 79문제</summary>
 
 | 문제 | 시도 | 시간 | 메모리 |
 | --- | --- | ---: | ---: |
@@ -539,6 +539,7 @@
 | treemap 기본 | ✅ | 282ms | 19MB |
 | treeset 기본 | ✅ | 148ms | 11MB |
 | 가까운 숫자 | ✅ | 340ms | 19MB |
+| 가장 가까운 거리의 최댓값 | ✅ | 962ms | 40MB |
 | 가장 가까운 점 | ✅ | 419ms | 30MB |
 | 가장 긴 왕복 거리 | ✅ | 201ms | 14MB |
 | 가장 많은 데이터 | ✅ | 371ms | 22MB |
